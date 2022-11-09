@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    gap: 25px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 212px;
+    width: 541px;
+    background-color: white;
+    box-shadow: 1px 0px 8px 3px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    gap: 20px;
+}
+.container label{
+    font-size: 35px;
+    color: #5c5c5c;
+}
+.input-div {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input 
+{
+    height: 35px;
+    width: 295px;
+    outline: none;
+    padding-left: 18px;
+    font-size: 15px;
+}
+.input-div button {
+    height: 35px;
+    width: 80px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.BorderColor{
+    border: 1px solid red;
+}
+.task-store-div {
+    width: 624px;
+    height: 500px;
+    padding: 25px;
+    overflow: auto;
+    background: white;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+    box-shadow: 1px 0px 8px 3px rgb(0 0 0 / 20%);
+    visibility: hidden;
+}
+.task-store-div::-webkit-scrollbar{
+display: none;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    box-shadow: 1px 0px 8px 3px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.todobtn{
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    border: none;
+    background: blue;
+    cursor: pointer;
+    width: 45px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+button.Editbtn {
+    margin-left: 425px;
+}
+.todoedit{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    width: 541px;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 1px 0px 8px 3px rgb(0 0 0 / 20%);
+    position: absolute;
+    background-color: white;
+}
